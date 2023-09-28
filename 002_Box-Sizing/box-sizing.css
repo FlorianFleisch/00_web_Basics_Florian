@@ -1,18 +1,18 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 
-div{
-    height:500px;
+div {
+    height: 500px;
     width: 500px;
     background-color: red;
     border-style: solid;
-   
+
 
 }
 
-.second{
+.second {
     padding: 15px;
 
 }
