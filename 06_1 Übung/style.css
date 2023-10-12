@@ -1,0 +1,55 @@
+.container {
+    background-color: yellow;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    margin-top: 400px;
+    justify-content: center;
+}
+
+.box {
+    background-color: green;
+    width: 70px;
+    height: 70px;
+    margin: 50px;
+}
+
+.container2 {
+    background-color: rgb(111, 172, 233);
+    position: relative;
+    width: 400px;
+    height: 200px;
+    top: 40px;
+    margin-left: 40px;
+}
+
+.box2 {
+    background-color: rgb(150, 78, 0);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+}
+
+.list {
+    list-style-type: disc;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.Header {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.box3 {
+    background-color: blueviolet;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+}
