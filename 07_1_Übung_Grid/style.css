@@ -1,0 +1,32 @@
+.box {
+background-color: green;
+width: 100px;
+height: 100px;
+
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin: 100px;
+}
+
+.große{
+background-color: green;
+width: 150px;
+height: 150px;
+}
+
+.container2{
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 10px;
+    row-gap: 20px;
+  
+    
+}
