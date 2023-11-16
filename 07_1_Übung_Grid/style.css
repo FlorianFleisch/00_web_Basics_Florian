@@ -1,32 +1,33 @@
-.box {
-background-color: green;
-width: 100px;
-height: 100px;
-
-
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
 
 }
 
-.container{
+
+.box {
+    background-color: green;
+
+}
+
+.left {
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    column-gap: 20px;
-    row-gap: 30px;
-    margin: 100px;
+    grid-template-rows: 100px 100px;
+    gap: 20px;
 }
 
-.große{
-background-color: green;
-width: 150px;
-height: 150px;
+.große {
+    background-color: green;
+
 }
 
-.container2{
-    position: relative;
+.right {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    column-gap: 10px;
-    row-gap: 20px;
-  
-    
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+
+
 }
