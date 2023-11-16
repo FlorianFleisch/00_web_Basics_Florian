@@ -1,0 +1,36 @@
+.header {
+    justify-content: space-between;
+    display: flex;
+    background-color: blanchedalmond;
+    align-items: center;
+    height: 100px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.box {
+    background-color: black;
+    height: 70px;
+    width: 70px;
+}
+
+.container{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.item1 {
+    background-color: blue;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+}
+
+.item2{
+    background-color: blue;
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
