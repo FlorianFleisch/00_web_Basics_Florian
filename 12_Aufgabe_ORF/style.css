@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.obersteLeiste {
+    display: flex;
+    background-color: rgb(160, 3, 3);
+    color: rgb(240, 248, 255);
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+}
+
+.vorarlberg {
+    background-color: red;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: left;
+    padding-left: 30px;
+}
+
+.untereLeiste {
+    display: flex;
+    background-color: rgb(129, 2, 2);
+    color: rgb(240, 248, 255);
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+}
+
+.Bild1 {
+
+    height: 300px;
+    border: 1px solid #000000;
+    background-image: url('./images/orf_b1.jpg');
+    background-size: cover;
+}
+
