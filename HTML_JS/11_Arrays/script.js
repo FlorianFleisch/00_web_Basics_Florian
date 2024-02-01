@@ -7,16 +7,22 @@
 //		c. Berechne den Mittelwert der Zahlen und gib das Ergebnis aus
 
 
-let arr = [4, 1, 2, 3,]
+let arr = [4, 1, 2, 3,];
 console.log(arr);
 
 arr.push(17, 199);
 console.log(arr);
 
-console.log(arr[2]);
+    let ergebniss = 0;
+    
+    for(let i=0; i<=arr.length; i++){
+        ergebniss += parseInt(arr[i]);
+        console.log(ergebniss);
+    }
+    
 
-let data = arr.join(0,1,2,3,4,5,6)
-console.log(data);
+
+
 
 
 
