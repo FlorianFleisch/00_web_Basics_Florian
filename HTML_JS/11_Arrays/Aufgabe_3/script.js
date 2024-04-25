@@ -9,7 +9,7 @@
 // 1sadfa
 
 
-const input = "5 2 -2 -8 4 5";
+const input = "5 1 -1 -8 4 5";
 let array = input.split(" ");
 
 let min = Infinity;
