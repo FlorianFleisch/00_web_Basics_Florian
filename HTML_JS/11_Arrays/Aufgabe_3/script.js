@@ -6,7 +6,7 @@
 // 5
 // 1 -2 -8 4 5
 // Output
-// 1
+// 1sadfa
 
 
 const input = "5 1 -1 -8 4 5";
